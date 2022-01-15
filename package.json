@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "node dev.js",
+    "build": "node build.js",
+    "test": "node framework/test/find-block.spec.js && node framework/test/render.spec.js",
+    "format": "prettier --write .",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "prettier": "^2.5.1"
+  }
+}

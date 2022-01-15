@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabriel Toll Stålbom</title>
+    <style>
+      body {
+        font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
+          monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <script render>
+      let html = "";
+      html += __render("templates/header.html");
+      html += __render("templates/main.html");
+      html += __render("templates/footer.html");
+      return html;
+    </script>
+  </body>
+</html>
