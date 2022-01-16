@@ -16,11 +16,12 @@ function __render(fileName, props) {
     if (variableInterpolation) {
       const propKey = variableInterpolation.content.trim();
       const propValue = props?.[propKey];
-      if (propValue) {
+      if (propValue !== undefined) {
+        const value = propValue.toString();
         const before = file.substring(0, variableInterpolation.startIndex);
         const after = file.substring(variableInterpolation.endIndex + 1);
-        file = before + propValue + after;
-        i += propValue.length;
+        file = before + value + after;
+        i += value.length;
       }
     }
 
