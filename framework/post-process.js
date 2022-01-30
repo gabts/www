@@ -22,7 +22,7 @@ function postProcess(html) {
   for (let i = 0; i < html.length; i++) {
     const headBlock = findBlock("<head>", "</head>", html, i);
     if (headBlock) {
-      headEndIndex = headBlock.endIndex - "</head>".length;
+      headEndIndex = headBlock.endIndex - 6;
       break;
     }
   }
@@ -35,7 +35,7 @@ function postProcess(html) {
   });
 
   processedHtml += "</style>";
-  processedHtml += html.substring(headEndIndex + 1);
+  processedHtml += html.substring(headEndIndex);
 
   return processedHtml;
 }
