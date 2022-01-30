@@ -1,6 +1,6 @@
 const fs = require("fs");
 const http = require("http");
-const { render } = require("./framework");
+const framework = require("./framework");
 
 (async function () {
   /**
@@ -14,21 +14,21 @@ const { render } = require("./framework");
   });
 
   const refreshServer = http.createServer(function (req, res) {
-    if (req.url === "/") {
-      const html = render("./templates/index.html");
-      const bodyClosingTagIndex = html.indexOf("</body>");
-      const updatedHtml =
-        html.substring(0, bodyClosingTagIndex) +
-        '<script>"use strict";(() => new EventSource("/reload").onmessage = ' +
-        "() => location.reload())();</script>" +
-        html.substring(bodyClosingTagIndex);
-
-      res.writeHead(200);
-      res.end(updatedHtml);
-      return;
-    }
-
     try {
+      if (req.url === "/") {
+        const html = framework("./templates/index.html");
+        const bodyClosingTagIndex = html.indexOf("</body>");
+        const updatedHtml =
+          html.substring(0, bodyClosingTagIndex) +
+          '<script>"use strict";(() => new EventSource("/reload").onmessage = ' +
+          "() => location.reload())();</script>" +
+          html.substring(bodyClosingTagIndex);
+
+        res.writeHead(200);
+        res.end(updatedHtml);
+        return;
+      }
+
       const data = fs.readFileSync("public" + req.url);
       res.writeHead(200);
       res.end(data);
