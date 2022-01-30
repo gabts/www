@@ -27,16 +27,19 @@ function __render(fileName, props) {
 
     const renderScript = findBlock("<script render>", "</script>", file, i);
     if (renderScript) {
+      const stringifiedProps = JSON.stringify(props || {}).replace(/'/g, "\\'");
       const renderFunc = `(() => {
         const __render = require("./render");
-        const __props = JSON.parse('${JSON.stringify(props || {})}');
+        const __props = JSON.parse('${stringifiedProps}');
         ${renderScript.content}
       })();`;
       const renderedHtml = eval(renderFunc);
-      const before = file.substring(0, renderScript.startIndex);
-      const after = file.substring(renderScript.endIndex + 1);
-      file = before + renderedHtml + after;
-      i += renderedHtml.length;
+      if (renderedHtml) {
+        const before = file.substring(0, renderScript.startIndex);
+        const after = file.substring(renderScript.endIndex + 1);
+        file = before + renderedHtml + after;
+        i += renderedHtml.length;
+      }
     }
   }
 
