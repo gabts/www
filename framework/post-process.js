@@ -29,9 +29,11 @@ function postProcess(html) {
 
   let processedHtml = html.substring(0, headEndIndex);
   processedHtml += "<style>";
-  styleSheets.forEach((styleSheet) => {
+
+  [...styleSheets].reverse().forEach((styleSheet) => {
     processedHtml += styleSheet;
   });
+
   processedHtml += "</style>";
   processedHtml += html.substring(headEndIndex + 1);
 
