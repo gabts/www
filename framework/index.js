@@ -1,5 +1,6 @@
-const render = require("./render");
+const { minify } = require("html-minifier");
 const postProcess = require("./post-process");
+const render = require("./render");
 
 /**
  * Transpiles and processes a html template and it's sub templates into a single
@@ -8,7 +9,13 @@ const postProcess = require("./post-process");
  * @returns {string}
  */
 function framework(fileName) {
-  return postProcess(render(fileName));
+  const html = postProcess(render(fileName));
+  return minify(html, {
+    html5: true,
+    collapseWhitespace: true,
+    minifyCSS: true,
+    minifyJS: true,
+  });
 }
 
 module.exports = framework;
