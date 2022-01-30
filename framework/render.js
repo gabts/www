@@ -34,7 +34,7 @@ function __render(fileName, props) {
         ${renderScript.content}
       })();`;
       const renderedHtml = eval(renderFunc);
-      if (renderedHtml) {
+      if (typeof renderedHtml === "string") {
         const before = file.substring(0, renderScript.startIndex);
         const after = file.substring(renderScript.endIndex + 1);
         file = before + renderedHtml + after;
