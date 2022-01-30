@@ -1,6 +1,6 @@
 const fs = require("fs");
 const findBlock = require("./find-block");
-const { minify } = require("./utils");
+const { minify } = require("html-minifier");
 
 /**
  * Transpiles a html template.
@@ -43,7 +43,12 @@ function __render(fileName, props) {
     }
   }
 
-  return minify(file);
+  return minify(file, {
+    html5: true,
+    collapseWhitespace: true,
+    minifyCSS: true,
+    minifyJS: true,
+  });
 }
 
 module.exports = __render;
