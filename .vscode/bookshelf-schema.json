@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "author": { "type": "string" },
+      "format": { "enum": ["book", "podcast"] },
+      "month": { "type": "number" },
+      "release": { "type": "number" },
+      "score": { "type": "number" },
+      "title": { "type": "string" },
+      "year": { "type": "number" }
+    },
+    "required": [
+      "author",
+      "format",
+      "month",
+      "release",
+      "score",
+      "title",
+      "year"
+    ]
+  }
+}

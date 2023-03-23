@@ -1,0 +1,45 @@
+<article class="bookshelf__book">
+  <h5>{{ title }} <span>({{ format }} {{ release }})</span></h5>
+  <p class="bookshelf__book-author">by <span>{{ author }}</span></p>
+  <span
+    role="img"
+    aria-label="score: {{ score }} of 5"
+    title="score: {{ score }}/5"
+  >
+    <script render>
+      return "⭐".repeat(__props.score);
+    </script>
+  </span>
+  <script render>
+    if (!__props.comment) return "";
+    return `<p>${__props.comment}</p>`;
+  </script>
+</article>
+
+<style>
+  .bookshelf__book {
+    margin-bottom: 16px;
+  }
+  .bookshelf__book h5 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .bookshelf__book h5 span {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .bookshelf__book p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .bookshelf__book-author {
+    font-weight: 500;
+  }
+  .bookshelf__book-author span {
+    font-style: italic;
+  }
+</style>

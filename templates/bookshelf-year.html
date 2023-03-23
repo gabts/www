@@ -1,0 +1,8 @@
+<section>
+  <h3>{{ year }}</h3>
+  <script render>
+    return __props.months
+      .map((month) => __render("./templates/bookshelf-month.html", month))
+      .join("");
+  </script>
+</section>

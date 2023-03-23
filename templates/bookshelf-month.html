@@ -1,0 +1,23 @@
+<div class="bookshelf__month">
+  <h4 class="bookshelf__month-title">{{ month }}</h4>
+  <div>
+    <script render>
+      return __props.books
+        .map((book) => __render("./templates/bookshelf-book.html", book))
+        .join("");
+    </script>
+  </div>
+</div>
+
+<style>
+  .bookshelf__month {
+    display: flex;
+    position: relative;
+  }
+
+  .bookshelf__month-title {
+    flex-shrink: 0;
+    padding-right: 32px;
+    margin: 0;
+  }
+</style>

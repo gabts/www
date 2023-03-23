@@ -1,0 +1,48 @@
+<h2>Bookshelf</h2>
+<section>
+  <script render>
+    const data = require("../data/bookshelf.json");
+
+    const mappedData = data.reduce((acc, book) => {
+      if (!acc[book.year]) acc[book.year] = {};
+      if (!acc[book.year][book.month]) acc[book.year][book.month] = [];
+      acc[book.year][book.month].push(book);
+      return acc;
+    }, {});
+
+    const monthNames = [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ];
+
+    const sortedData = Object.entries(mappedData)
+      .sort(([yearA], [yearB]) => yearB - yearA)
+      .map(([year, months]) => ({
+        year,
+        months: Object.entries(months)
+          .sort(([monthA], [monthB]) => monthB - monthA)
+          .map(([month, books]) => ({
+            month: monthNames[Number(month) - 1],
+            books: books.sort((a, b) =>
+              a.title > b.title ? 1 : a.title < b.title ? -1 : 0
+            ),
+          })),
+      }));
+
+    return sortedData
+      .map(({ year, months }) =>
+        __render("./templates/bookshelf-year.html", { year, months })
+      )
+      .join("");
+  </script>
+</section>
