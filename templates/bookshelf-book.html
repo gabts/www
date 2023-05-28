@@ -1,6 +1,8 @@
 <article class="bookshelf__book">
-  <h5>{{ title }} <span>({{ format }} {{ release }})</span></h5>
-  <p class="bookshelf__book-author">by <span>{{ author }}</span></p>
+  <h5>{{ title }}</h5>
+  <p class="bookshelf__book-author">
+    by <span>{{ author }}, {{ release }}</span>
+  </p>
   <span
     role="img"
     aria-label="score: {{ score }} of 5"

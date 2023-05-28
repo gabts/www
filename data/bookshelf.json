@@ -5,8 +5,7 @@
     "title": "Stalin: New Biography of a Dictator",
     "author": "Oleg V. Khlevniuk",
     "release": 2015,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2023,
@@ -14,8 +13,7 @@
     "title": "In Cold Blood: A True Account of a Multiple Murder and its Consequences",
     "author": "Truman Capote",
     "release": 1959,
-    "score": 5,
-    "format": "book"
+    "score": 5
   },
   {
     "year": 2023,
@@ -23,8 +21,7 @@
     "title": "Dynasty: The Rise and Fall of the House of Caesar",
     "author": "Tom Holland",
     "release": 2015,
-    "score": 4,
-    "format": "book"
+    "score": 4
   },
   {
     "year": 2023,
@@ -32,8 +29,7 @@
     "title": "SPQR: A History of Ancient Rome",
     "author": "Mary Beard",
     "release": 2015,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2023,
@@ -41,8 +37,7 @@
     "title": "Fire and Blood",
     "author": "George R. R. Margin",
     "release": 2018,
-    "score": 4,
-    "format": "book"
+    "score": 4
   },
   {
     "year": 2023,
@@ -50,8 +45,7 @@
     "title": "Napoleon: the Man Behind the Myth",
     "author": "Adam Zamoyski",
     "release": 2018,
-    "score": 4,
-    "format": "book"
+    "score": 4
   },
   {
     "year": 2022,
@@ -59,8 +53,7 @@
     "title": "A Dance with Dragons",
     "author": "George R. R. Martin",
     "release": 2011,
-    "score": 5,
-    "format": "book"
+    "score": 5
   },
   {
     "year": 2022,
@@ -68,8 +61,7 @@
     "title": "A Feats for Crows",
     "author": "George R. R. Martin",
     "release": 2005,
-    "score": 5,
-    "format": "book"
+    "score": 5
   },
   {
     "year": 2022,
@@ -77,8 +69,7 @@
     "title": "A Storm of Swords",
     "author": "George R. R. Martin",
     "release": 2000,
-    "score": 5,
-    "format": "book"
+    "score": 5
   },
   {
     "year": 2022,
@@ -86,8 +77,7 @@
     "title": "A Clash of Kings",
     "author": "George R. R. Martin",
     "release": 1998,
-    "score": 5,
-    "format": "book"
+    "score": 5
   },
   {
     "year": 2022,
@@ -95,8 +85,7 @@
     "title": "A Game of Thrones",
     "author": "George R. R. Martin",
     "release": 1996,
-    "score": 5,
-    "format": "book"
+    "score": 5
   },
   {
     "year": 2022,
@@ -104,8 +93,7 @@
     "title": "Ancient Rome: From Romulus to Justinian",
     "author": "Thomas R. Martin",
     "release": 2018,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2022,
@@ -113,8 +101,7 @@
     "title": "The Black Death: The World's Most Devastating Plague",
     "author": "Dorsey Armstrong",
     "release": 2016,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2022,
@@ -122,8 +109,7 @@
     "title": "The Silk Roads: A New History of the World",
     "author": "Peter Frankopan",
     "release": 2015,
-    "score": 5,
-    "format": "book"
+    "score": 5
   },
   {
     "year": 2022,
@@ -131,8 +117,7 @@
     "title": "1177 B.C.: The Year Civilization Collapsed",
     "author": "Eric H. Cline",
     "release": 2014,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2022,
@@ -140,8 +125,7 @@
     "title": "A Brief History of the Vikings: The Last Pagans or the First Modern Europeans?",
     "author": "Jonathan Clements",
     "release": 2005,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2022,
@@ -149,8 +133,7 @@
     "title": "Helter Skelter: The True Story of The Manson Murders",
     "author": "Vincent Bugliosi, Curt Gentry",
     "release": 1974,
-    "score": 4,
-    "format": "book"
+    "score": 4
   },
   {
     "year": 2021,
@@ -158,8 +141,7 @@
     "title": "The Copenhagen Trilogy: Childhood; Youth; Dependency",
     "author": "Tove Ditlevsen",
     "release": 1971,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2021,
@@ -167,8 +149,7 @@
     "title": "The History of the Ancient World: From the Earliest Accounts to the Fall of Rome",
     "author": "Susan Wise Bauer",
     "release": 2007,
-    "score": 4,
-    "format": "book"
+    "score": 4
   },
   {
     "year": 2021,
@@ -176,8 +157,7 @@
     "title": "The Road to Jonestown: Jim Jones and the Peoples Temple",
     "author": "Jeff Guinn",
     "release": 2017,
-    "score": 5,
-    "format": "book"
+    "score": 5
   },
   {
     "year": 2021,
@@ -185,8 +165,7 @@
     "title": "A Brief History of the Cold War",
     "author": "John Hughes-Wilso",
     "release": 2014,
-    "score": 2,
-    "format": "book"
+    "score": 2
   },
   {
     "year": 2021,
@@ -194,8 +173,7 @@
     "title": "All Hell Let Loose: The World at War 1939-1945",
     "author": "Max Hastings",
     "release": 2012,
-    "score": 2,
-    "format": "book"
+    "score": 2
   },
   {
     "year": 2021,
@@ -203,8 +181,7 @@
     "title": "Philip and Alexander",
     "author": "Adrian Goldsworthy",
     "release": 2020,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2021,
@@ -212,8 +189,7 @@
     "title": "The Germans and Europe: A Personal Frontline History",
     "author": "Peter Miller",
     "release": 2017,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2021,
@@ -221,8 +197,7 @@
     "title": "Genghis Khan and the Making of the Modern World",
     "author": "Jack Weatherford",
     "release": 2004,
-    "score": 2,
-    "format": "book"
+    "score": 2
   },
   {
     "year": 2021,
@@ -230,8 +205,7 @@
     "title": "The Rise and Fall of the Third Reich: A History of Nazi Germany",
     "author": "William L. Shirer",
     "release": 1960,
-    "score": 5,
-    "format": "book"
+    "score": 5
   },
   {
     "year": 2021,
@@ -239,8 +213,7 @@
     "title": "Tinker Tailor Soldier Spy",
     "author": "Jogn le Carré",
     "release": 1974,
-    "score": 4,
-    "format": "book"
+    "score": 4
   },
   {
     "year": 2021,
@@ -248,8 +221,7 @@
     "title": "Hitler",
     "author": "Ian Kershaw",
     "release": 2017,
-    "score": 5,
-    "format": "book"
+    "score": 5
   },
   {
     "year": 2021,
@@ -257,8 +229,7 @@
     "title": "The Picture of Dorian Gray",
     "author": "Oscar Wilde",
     "release": 1890,
-    "score": 2,
-    "format": "book"
+    "score": 2
   },
   {
     "year": 2021,
@@ -266,8 +237,7 @@
     "title": "Zodiac",
     "author": "Robert Graysmith",
     "release": 2006,
-    "score": 5,
-    "format": "book"
+    "score": 5
   },
   {
     "year": 2021,
@@ -275,8 +245,7 @@
     "title": "Lord of the Flies",
     "author": "William Golding",
     "release": 1954,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2021,
@@ -284,8 +253,7 @@
     "title": "Herrgårdssägnen",
     "author": "Selma Lagerlöf",
     "release": 1899,
-    "score": 2,
-    "format": "book"
+    "score": 2
   },
   {
     "year": 2021,
@@ -293,8 +261,7 @@
     "title": "Snöstorm",
     "author": "Augustin Erba",
     "release": 2019,
-    "score": 1,
-    "format": "book"
+    "score": 1
   },
   {
     "year": 2021,
@@ -302,8 +269,7 @@
     "title": "The Storm Before the Storm",
     "author": "Mike Duncan",
     "release": 2017,
-    "score": 4,
-    "format": "book"
+    "score": 4
   },
   {
     "year": 2021,
@@ -311,8 +277,7 @@
     "title": "People Who Eat Darkness: The True Story of a Young Woman Who Vanished from the Streets of Tokyo - and the Evil That Swallowed Her Up",
     "author": "Richard Lloyd Parry",
     "release": 2012,
-    "score": 2,
-    "format": "book"
+    "score": 2
   },
   {
     "year": 2021,
@@ -320,8 +285,7 @@
     "title": "The Dark Tower I: The Gunslinger",
     "author": "Steven King",
     "release": 1982,
-    "score": 2,
-    "format": "book"
+    "score": 2
   },
   {
     "year": 2020,
@@ -329,8 +293,7 @@
     "title": "Vietnam: An Epic Tragedy, 1945-1975",
     "author": "Max Hastings",
     "release": 2018,
-    "score": 4,
-    "format": "book"
+    "score": 4
   },
   {
     "year": 2020,
@@ -338,8 +301,7 @@
     "title": "A Promised Land",
     "author": "Barack Obama",
     "release": 2020,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2020,
@@ -347,8 +309,7 @@
     "title": "A Little History of Philosophy",
     "author": "Nigel Warburton",
     "release": 2012,
-    "score": 4,
-    "format": "book"
+    "score": 4
   },
   {
     "year": 2020,
@@ -356,8 +317,7 @@
     "title": "El Narco: Inside Mexico's Criminal Insurgency",
     "author": "Ioan Grillo",
     "release": 2012,
-    "score": 4,
-    "format": "book"
+    "score": 4
   },
   {
     "year": 2020,
@@ -365,8 +325,7 @@
     "title": "The Haunting of Hill House",
     "author": "Shirley Jackson",
     "release": 1959,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2020,
@@ -374,8 +333,7 @@
     "title": "The Last Book on the Left: Stories of Murder and Mayhem from History's Most Notorious Serial Killers",
     "author": "Ben Kissel, Marcus Parks, Henry Zebrowski",
     "release": 2020,
-    "score": 1,
-    "format": "book"
+    "score": 1
   },
   {
     "year": 2020,
@@ -383,8 +341,7 @@
     "title": "Killing Commendatore",
     "author": "Haruki Murakami",
     "release": 2017,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2020,
@@ -392,8 +349,7 @@
     "title": "The Last Wish",
     "author": "Andrzej Sapkowski",
     "release": 1993,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2020,
@@ -401,8 +357,7 @@
     "title": "Dune",
     "author": "Frank Herbert",
     "release": 1965,
-    "score": 4,
-    "format": "book"
+    "score": 4
   },
   {
     "year": 2020,
@@ -410,8 +365,7 @@
     "title": "The Korean War",
     "author": "Max Hastings",
     "release": 1988,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2020,
@@ -419,8 +373,7 @@
     "title": "The Killings at Badger's Drift",
     "author": "Caroline Graham",
     "release": 1987,
-    "score": 2,
-    "format": "book"
+    "score": 2
   },
   {
     "year": 2020,
@@ -428,8 +381,7 @@
     "title": "Jurassic Park",
     "author": "Michael Crichton",
     "release": 1990,
-    "score": 4,
-    "format": "book"
+    "score": 4
   },
   {
     "year": 2020,
@@ -437,8 +389,7 @@
     "title": "Drive Your Plow Over the Bones of the Dead",
     "author": "Olga Tokarczuk",
     "release": 2009,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2020,
@@ -446,8 +397,7 @@
     "title": "The End is Always Near",
     "author": "Dan Carlin",
     "release": 2019,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2019,
@@ -455,8 +405,7 @@
     "title": "The Hobbit",
     "author": "J. R. R. Tolkien",
     "release": 1937,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2019,
@@ -464,8 +413,7 @@
     "title": "Buried in The Sky: The Extraordinary Story of the Sherpa Climbers on K2's Deadliest Day",
     "author": "Peter Zuckerman",
     "release": 2012,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2019,
@@ -473,8 +421,7 @@
     "title": "The Indifferent Stars Above: The Harrowing Saga of the Donner Party",
     "author": "Daniel James Brown",
     "release": 2015,
-    "score": 5,
-    "format": "book"
+    "score": 5
   },
   {
     "year": 2019,
@@ -482,8 +429,7 @@
     "title": "Heart of Darkness",
     "author": "Joseph Conrad",
     "release": 1899,
-    "score": 4,
-    "format": "book"
+    "score": 4
   },
   {
     "year": 2019,
@@ -491,8 +437,7 @@
     "title": "Animal Farm",
     "author": "George Orwell",
     "release": 1945,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2019,
@@ -500,8 +445,7 @@
     "title": "1984",
     "author": "George Orwell",
     "release": 1950,
-    "score": 3,
-    "format": "book"
+    "score": 3
   },
   {
     "year": 2019,
@@ -509,8 +453,7 @@
     "title": "The Order of the Day",
     "author": "Éric Vuillard",
     "release": 2017,
-    "score": 4,
-    "format": "book"
+    "score": 4
   },
   {
     "year": 2019,
@@ -518,7 +461,6 @@
     "title": "Sapiens: A Brief History of Humankind",
     "author": "Yuval Noah Harari",
     "release": 2015,
-    "score": 4,
-    "format": "book"
+    "score": 4
   }
 ]
