@@ -1,6 +1,22 @@
 [
   {
     "year": 2023,
+    "month": 6,
+    "title": "Oil!",
+    "author": "Upton Sinclair",
+    "release": 1926,
+    "score": 3
+  },
+  {
+    "year": 2023,
+    "month": 6,
+    "title": "The End of History and the Last Man",
+    "author": "Francis Fukuyama",
+    "release": 1992,
+    "score": 3
+  },
+  {
+    "year": 2023,
     "month": 5,
     "title": "Stalin: New Biography of a Dictator",
     "author": "Oleg V. Khlevniuk",
@@ -34,7 +50,7 @@
   {
     "year": 2023,
     "month": 3,
-    "title": "Fire and Blood",
+    "title": "Fire & Blood",
     "author": "George R. R. Margin",
     "release": 2018,
     "score": 4
@@ -42,7 +58,7 @@
   {
     "year": 2023,
     "month": 2,
-    "title": "Napoleon: the Man Behind the Myth",
+    "title": "Napoleon: The Man Behind the Myth",
     "author": "Adam Zamoyski",
     "release": 2018,
     "score": 4
