@@ -1,6 +1,14 @@
 [
   {
     "year": 2023,
+    "month": 8,
+    "title": "Blood Meridian",
+    "author": "Cormac Macarthur",
+    "release": 1985,
+    "score": 3
+  },
+  {
+    "year": 2023,
     "month": 6,
     "title": "Oil!",
     "author": "Upton Sinclair",
