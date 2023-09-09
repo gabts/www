@@ -1,6 +1,14 @@
 [
   {
     "year": 2023,
+    "month": 9,
+    "title": "Persian Fire",
+    "author": "Tom Holland",
+    "release": 2005,
+    "score": 5
+  },
+  {
+    "year": 2023,
     "month": 8,
     "title": "Blood Meridian",
     "author": "Cormac Macarthur",
