@@ -1,6 +1,22 @@
 [
   {
     "year": 2023,
+    "month": 11,
+    "title": "Millennium",
+    "author": "Tom Holland",
+    "release": 2008,
+    "score": 3
+  },
+  {
+    "year": 2023,
+    "month": 11,
+    "title": "In the Shadow of the Sword",
+    "author": "Tom Holland",
+    "release": 2012,
+    "score": 3
+  },
+  {
+    "year": 2023,
     "month": 10,
     "title": "The Histories",
     "author": "Herodotus, Tom Holland",
