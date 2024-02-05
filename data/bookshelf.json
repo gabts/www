@@ -1,5 +1,21 @@
 [
   {
+    "year": 2024,
+    "month": 1,
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "release": 1772,
+    "score": 2
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "title": "The Classical World: An Epic History from Homer to Hadrian",
+    "author": "Robin Lane Fox",
+    "release": 2005,
+    "score": 3
+  },
+  {
     "year": 2023,
     "month": 11,
     "title": "Millennium",
